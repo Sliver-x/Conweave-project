@@ -1,0 +1,516 @@
+date,id,ccmode,lbmode,cwh_tx_expiry_time,cwh_extra_reply_deadline,cwh_path_pause_time,cwh_extra_voq_flush_time,cwh_default_voq_waiting_time,pfc,irn,reps,has_win,var_win,topo,bw,cdf,tmode,load,time,fixed
+04/11/25,757566561,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/757566561/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/757566561/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/757566561/config.txt'
+
+04/11/25,786088074,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/786088074/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/786088074/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/786088074/config.txt'
+
+04/12/25,256038285,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/256038285/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/256038285/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/256038285/config.txt'
+
+04/12/25,9812398,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/9812398/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/9812398/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/9812398/config.txt'
+
+04/12/25,77808277,1,6,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/77808277/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/77808277/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/77808277/config.txt'
+
+04/12/25,821527983,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/821527983/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/821527983/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/821527983/config.txt'
+
+04/12/25,943239330,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/943239330/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/943239330/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/943239330/config.txt'
+
+04/12/25,351060402,1,6,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/351060402/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/351060402/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/351060402/config.txt'
+
+04/12/25,322457326,1,0,1000,4,16,64,400,0,1,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/293034500/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/322457326/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/322457326/config.txt'
+
+04/12/25,547325709,1,0,1000,4,16,64,400,0,1,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/293034500/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/547325709/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/547325709/config.txt'
+
+04/15/25,194400453,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,Solar2022,normal,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/194400453/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/194400453/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/194400453/config.txt'
+
+04/15/25,850152900,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,Solar2022,normal,50,0.1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/850152900/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/850152900/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/850152900/config.txt'
+
+04/22/25,610593763,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/610593763/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/610593763/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/610593763/config.txt'
+
+04/22/25,935028269,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/935028269/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/935028269/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/935028269/config.txt'
+
+04/22/25,378207033,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/378207033/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/378207033/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/378207033/config.txt'
+
+04/22/25,179544346,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/179544346/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/179544346/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/179544346/config.txt'
+
+04/22/25,795481780,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/795481780/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/795481780/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/795481780/config.txt'
+
+04/22/25,752816210,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/752816210/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/752816210/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/752816210/config.txt'
+
+04/22/25,911132896,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/911132896/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/911132896/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/911132896/config.txt'
+
+04/22/25,288161696,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/288161696/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/288161696/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/288161696/config.txt'
+
+04/22/25,475862836,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,80,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/475862836/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/475862836/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/475862836/config.txt'
+
+04/22/25,85011631,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,80,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/85011631/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/85011631/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/85011631/config.txt'
+
+04/22/25,245636715,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_reduce_cdf,r-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/245636715/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/245636715/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/245636715/config.txt'
+
+04/22/25,769020386,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_reduce_cdf,r-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/769020386/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/769020386/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/769020386/config.txt'
+
+04/22/25,855232366,1,0,1000,4,16,64,400,0,1,1,0,0,leaf_spine_128_100G_OS2,100,all_reduce_cdf,r-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/855232366/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/855232366/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/855232366/config.txt'
+
+04/22/25,126428852,1,0,1000,4,16,64,400,0,1,0,0,0,leaf_spine_128_100G_OS2,100,all_reduce_cdf,r-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/126428852/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/126428852/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/126428852/config.txt'
+
+04/22/25,288563512,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_reduce_cdf,b-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/288563512/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/288563512/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/288563512/config.txt'
+
+04/22/25,399995964,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_reduce_cdf,b-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/399995964/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/399995964/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/399995964/config.txt'
+
+04/22/25,236603,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/236603/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/236603/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/236603/config.txt'
+
+04/22/25,493670094,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/493670094/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/493670094/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/493670094/config.txt'
+
+04/22/25,162387744,1,6,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/162387744/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/162387744/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/162387744/config.txt'
+
+04/22/25,776421527,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/776421527/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/776421527/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/776421527/config.txt'
+
+04/22/25,915562912,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/915562912/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/915562912/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/915562912/config.txt'
+
+04/22/25,824526465,1,6,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/824526465/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/824526465/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/824526465/config.txt'
+
+04/22/25,499588656,1,3,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/499588656/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/499588656/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/499588656/config.txt'
+
+04/22/25,746971054,1,9,300,4,16,16,200,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/746971054/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/746971054/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/746971054/config.txt'
+
+04/22/25,537465470,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/537465470/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/537465470/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/537465470/config.txt'
+
+04/22/25,196084976,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/196084976/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/196084976/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/196084976/config.txt'
+
+04/22/25,795481780,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/795481780/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/795481780/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/795481780/config.txt'
+
+04/22/25,752816210,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,AliStorage2019,all-to-all,50,0.1,1
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/752816210/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/752816210/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/752816210/config.txt'
+
+04/28/25,671127037,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/671127037/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/671127037/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/671127037/config.txt'
+
+04/28/25,256852331,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/256852331/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/256852331/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/256852331/config.txt'
+
+04/28/25,378867808,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/378867808/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/378867808/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/378867808/config.txt'
+
+04/28/25,317717588,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/317717588/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/317717588/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/317717588/config.txt'
+
+04/28/25,761087127,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/761087127/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/761087127/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/761087127/config.txt'
+
+04/28/25,291910569,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/291910569/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/291910569/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/291910569/config.txt'
+
+04/28/25,817391550,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/817391550/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/817391550/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/817391550/config.txt'
+
+04/28/25,772557527,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/772557527/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/772557527/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/772557527/config.txt'
+
+04/28/25,12994072,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/12994072/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/12994072/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/12994072/config.txt'
+
+04/28/25,582275921,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/582275921/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/582275921/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/582275921/config.txt'
+
+04/28/25,166622177,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/166622177/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/166622177/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/166622177/config.txt'
+
+04/28/25,890723675,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/890723675/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/890723675/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/890723675/config.txt'
+
+04/28/25,214057093,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/214057093/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/214057093/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/214057093/config.txt'
+
+04/28/25,862199370,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/862199370/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/862199370/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/862199370/config.txt'
+
+04/28/25,21158343,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/21158343/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/21158343/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/21158343/config.txt'
+
+04/28/25,402258047,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/402258047/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/402258047/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/402258047/config.txt'
+
+04/28/25,294555731,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/294555731/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/294555731/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/294555731/config.txt'
+
+04/28/25,10527811,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/10527811/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/10527811/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/10527811/config.txt'
+
+04/28/25,390248286,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/390248286/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/390248286/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/390248286/config.txt'
+
+04/28/25,53731636,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/53731636/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/53731636/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/53731636/config.txt'
+
+04/28/25,894191234,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/894191234/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/894191234/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/894191234/config.txt'
+
+04/28/25,235924443,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/235924443/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/235924443/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/235924443/config.txt'
+
+04/28/25,646853145,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/646853145/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/646853145/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/646853145/config.txt'
+
+04/28/25,274727585,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/274727585/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/274727585/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/274727585/config.txt'
+
+04/28/25,132312902,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/132312902/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/132312902/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/132312902/config.txt'
+
+04/28/25,866426856,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/866426856/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/866426856/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/866426856/config.txt'
+
+04/28/25,182193945,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/182193945/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/182193945/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/182193945/config.txt'
+
+04/28/25,599581110,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/599581110/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/599581110/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/599581110/config.txt'
+
+04/28/25,884517942,1,6,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/884517942/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/884517942/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/884517942/config.txt'
+
+04/28/25,194173834,1,3,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/194173834/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/194173834/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/194173834/config.txt'
+
+04/28/25,863160957,1,9,1000,4,16,64,600,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/863160957/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/863160957/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/863160957/config.txt'
+
+04/28/25,734327695,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/734327695/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/734327695/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/734327695/config.txt'
+
+04/28/25,730742112,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/730742112/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/730742112/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/730742112/config.txt'
+
+04/28/25,143533071,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/143533071/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/143533071/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/143533071/config.txt'
+
+04/28/25,38350431,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/38350431/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/38350431/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/38350431/config.txt'
+
+04/28/25,589436219,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/589436219/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/589436219/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/589436219/config.txt'
+
+04/28/25,352388332,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/352388332/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/352388332/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/352388332/config.txt'
+
+04/29/25,61214906,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/61214906/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/61214906/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/61214906/config.txt'
+
+04/29/25,363038420,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/363038420/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/363038420/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/363038420/config.txt'
+
+04/29/25,304463645,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/304463645/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/304463645/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/304463645/config.txt'
+
+04/29/25,790660084,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/790660084/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/790660084/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/790660084/config.txt'
+
+04/29/25,601497777,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,10,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/601497777/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/601497777/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/601497777/config.txt'
+
+04/29/25,188168239,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,10,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/188168239/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/188168239/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/188168239/config.txt'
+
+04/29/25,968705439,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,80,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/968705439/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/968705439/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/968705439/config.txt'
+
+04/29/25,839020572,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,80,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/839020572/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/839020572/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/839020572/config.txt'
+
+04/29/25,120469053,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/120469053/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/120469053/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/120469053/config.txt'
+
+04/29/25,549728926,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/549728926/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/549728926/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/549728926/config.txt'
+
+04/29/25,281872132,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,40,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/281872132/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/281872132/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/281872132/config.txt'
+
+04/29/25,71243617,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,b-all-reduce,40,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/71243617/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/71243617/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/71243617/config.txt'
+
+04/29/25,73589248,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/73589248/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/73589248/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/73589248/config.txt'
+
+04/29/25,161489326,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/161489326/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/161489326/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/161489326/config.txt'
+
+04/29/25,935056109,1,6,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/935056109/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/935056109/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/935056109/config.txt'
+
+04/29/25,223838231,1,3,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/223838231/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/223838231/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/223838231/config.txt'
+
+04/29/25,805492469,1,9,1000,4,16,64,600,1,0,0,0,0,fat_k4_100G_OS2,100,all_reduce_cdf,r-all-reduce,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/805492469/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/805492469/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/805492469/config.txt'
+
+04/29/25,370360333,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/370360333/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/370360333/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/370360333/config.txt'
+
+04/29/25,655819887,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/655819887/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/655819887/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/655819887/config.txt'
+
+04/29/25,940071219,1,6,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/940071219/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/940071219/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/940071219/config.txt'
+
+04/29/25,532032148,1,3,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/532032148/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/532032148/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/532032148/config.txt'
+
+04/29/25,495516806,1,9,1000,4,16,64,600,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,30,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/495516806/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/495516806/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/495516806/config.txt'
+
+04/29/25,498281800,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/498281800/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/498281800/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/498281800/config.txt'
+
+04/29/25,420427013,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/420427013/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/420427013/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/420427013/config.txt'
+
+04/29/25,23438019,1,6,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/23438019/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/23438019/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/23438019/config.txt'
+
+04/29/25,913815973,1,3,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/913815973/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/913815973/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/913815973/config.txt'
+
+04/29/25,156121070,1,9,1000,4,16,64,600,1,0,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/156121070/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/156121070/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/156121070/config.txt'
+
+04/29/25,524530399,1,0,1000,4,16,64,400,0,1,1,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/524530399/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/524530399/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/524530399/config.txt'
+
+04/29/25,592918322,1,0,1000,4,16,64,400,0,1,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/592918322/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/592918322/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/592918322/config.txt'
+
+04/29/25,279998836,1,6,1000,4,16,64,400,0,1,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/279998836/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/279998836/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/279998836/config.txt'
+
+04/29/25,285487053,1,3,1000,4,16,64,400,0,1,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/285487053/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/285487053/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/285487053/config.txt'
+
+04/29/25,824947455,1,9,1000,4,16,16,300,0,1,0,0,0,fat_k4_100G_OS2,100,AliStorage2019,normal,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/824947455/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/824947455/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/824947455/config.txt'
+
+04/30/25,618441072,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/618441072/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/618441072/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/618441072/config.txt'
+
+04/30/25,522809102,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/522809102/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/522809102/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/522809102/config.txt'
+
+04/30/25,801436676,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k8_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/801436676/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/801436676/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/801436676/config.txt'
+
+04/30/25,833529369,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k8_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/833529369/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/833529369/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/833529369/config.txt'
+
+04/30/25,64621276,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/64621276/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/64621276/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/64621276/config.txt'
+
+04/30/25,600168716,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/600168716/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/600168716/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/600168716/config.txt'
+
+04/30/25,699275439,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/699275439/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/699275439/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/699275439/config.txt'
+
+04/30/25,106827046,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_400G_OS2,400,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/106827046/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/106827046/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/106827046/config.txt'
+
+04/30/25,717496017,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_400G_OS2,400,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/717496017/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/717496017/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/717496017/config.txt'
+
+04/30/25,442790474,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_400G_OS2,400,all_to_all_cdf,all-to-all,20,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/442790474/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/442790474/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/442790474/config.txt'
+
+05/01/25,386277581,1,0,1000,4,16,64,400,1,0,1,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/386277581/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/386277581/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/386277581/config.txt'
+
+05/01/25,407377666,1,0,1000,4,16,64,400,1,0,0,0,0,leaf_spine_128_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/407377666/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/407377666/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/407377666/config.txt'
+
+05/01/25,156355280,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/156355280/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/156355280/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/156355280/config.txt'
+
+05/01/25,938761143,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/938761143/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/938761143/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/938761143/config.txt'
+
+05/01/25,524205460,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/524205460/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/524205460/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/524205460/config.txt'
+
+05/01/25,406227716,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/406227716/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/406227716/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/406227716/config.txt'
+
+05/01/25,727532788,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/727532788/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/727532788/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/727532788/config.txt'
+
+05/01/25,48058159,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/48058159/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/48058159/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/48058159/config.txt'
+
+05/01/25,492840400,1,0,1000,4,16,64,400,1,0,1,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/492840400/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/492840400/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/492840400/config.txt'
+
+05/01/25,433876970,1,0,1000,4,16,64,400,1,0,0,0,0,fat_k4_100G_OS2,100,all_to_all_cdf,all-to-all,50,0.1,0
+./waf --run 'scratch/network-load-balance /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/433876970/config.txt' > /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/433876970/config.log 2>&1
+./waf --run 'scratch/network-load-balance' --command-template='gdb --args %s /home/jiaxue/conweave-project/ns-allinone-3.19/ns-3.19/mix/output/433876970/config.txt'
